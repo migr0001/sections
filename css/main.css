@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+}
+
+header {
+  font-style: bold;
+  text-align: center;
+}
