@@ -5,14 +5,23 @@ html {
   background-color: #eee9de;
   max-width: 25em;
   text-align: left;
-  padding: .4em .75em .5em;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 1rem;
+  display: block;
+}
+
+section {
+  display: inline-block;
+}
+
 img {
+  padding-top: 2em;
   display: block;
   text-align: center;
   vertical-align: middle;
@@ -22,7 +31,12 @@ img {
 h2 {
   font-weight: bold;
   text-align: left;
-  padding-top: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div {
+  display: inline;
 }
 
 .btn {
